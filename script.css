@@ -142,25 +142,29 @@ img{
     background-color: #3882F6;
     display: flex;
     border-radius: 5px;
-    margin: 100px;
+    margin: 100px 200px;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .action button {
     background-color: #3882F6;
     color: white;
-    border-color: white;
+    border: 2px solid #F9FAF8;
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
     display: inline-block;
-    border-style: 1px;
+    width: 100px;
+    font-weight: normal;
 }
 
 #call-title{
     color: white;
     font-weight: bolder;
     font-size: larger;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /**
