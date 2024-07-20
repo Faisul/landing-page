@@ -1,0 +1,173 @@
+@font-face {
+    font-family: GraublauWeb;
+    src: url("fonts/HeroLight-Bold.otf") format("opentype");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    color: white;
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li a {
+    padding: 6px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.main {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.banner button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 70px
+}
+
+.image {
+    height: 200px;
+    width: 550px;
+    border: #1F2937;
+    background-color: dimgrey;
+    text-align: center;
+    align-content: center;
+}
+
+
+/*
+* section2 info
+*/
+.info {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.card {
+    width: 150px;
+    padding: 16px
+}
+
+img{
+    border: solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+/**
+* quote section
+**/
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote-author {
+    font-weight: bolder;
+    text-align: right;
+}
+
+
+/**
+* action section
+**/
+.action {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 5px;
+    margin: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    height: 25px;
+    display: inline-block;
+    border-style: 1px;
+}
+
+#call-title{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/**
+Footer
+**/
+footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+}
